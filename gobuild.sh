@@ -3,7 +3,7 @@
 set -eux
 
 export GOPATH="$(pwd)/.gobuild"
-SRCDIR="${GOPATH}/src/github.com/9IT-Full-Service/podloxx-hb/"
+SRCDIR="${GOPATH}/src/github.com/ruedigerp/liquidcalculator/"
 
 [ -d ${GOPATH} ] && rm -rf ${GOPATH}
 mkdir -p ${GOPATH}/{src,pkg,bin}
